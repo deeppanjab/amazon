@@ -184,7 +184,6 @@ header{
 
 /** Hero section */
 .hero-section {
-  background-image: url(/assests/slider-photo.jpg);
   height: 368px;
   background-size: cover;
   display: flex;
@@ -312,7 +311,6 @@ footer{
 }
 
 .logo-footer{
-  background-image: url(./assests/amazon-logo.png);
   background-size: cover;
   height: 32px;
   width: 108px;
