@@ -185,12 +185,17 @@ header{
 /** Hero section */
 .hero-section {
   height: 368px;
-  background-size: cover;
+  background-size:cover;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin-top: 96px;
+  /* background-size:contain; */
+  background-repeat:no-repeat;
+background-position:center;
+width: auto;
 }
+
 .hero-msg {
   background: #f5f6f6;
   padding: 14px 10px;
@@ -213,7 +218,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     background-color: #222f3d67;
-    height: 1320px;
+    /* height: 1320px; */
+    height: auto;
     justify-content: space-evenly;
 }
 .box {
@@ -285,10 +291,12 @@ footer{
   background-color: #232f3e;
   color: white;
   font-size: .85rem;
+  height: auto;
   
 }
 .panel-countries{
   margin: 0 5rem;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -297,7 +305,7 @@ footer{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70px;
+  height: auto;
 }
 
 .panel-countries ul li{
@@ -311,6 +319,7 @@ footer{
 }
 
 .logo-footer{
+
   background-size: cover;
   height: 32px;
   width: 108px;

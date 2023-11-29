@@ -1,5 +1,4 @@
 @media (min-width: 319px) and (max-width: 480px) {
-  
   .panel-countries {
     margin: 0 2rem;
     display: flex;
@@ -11,35 +10,44 @@
     flex-wrap: wrap;
     height: 180px;
   }
-  .nav-sign-in{
+  .nav-sign-in {
     display: none;
   }
-  .orders-link{
+  .orders-link {
     display: none;
   }
-  .panel *{
+  .panel * {
     display: none;
   }
-  .nav-address{
+  .nav-address {
     display: none;
   }
-  .box{
-    margin: 8px 16px;
-  }
-  .shop-section{
+
+  .shop-section {
     height: 3806px;
+  }
+  .foot-panel2 ul:nth-child(3) {
+    display: none;
+  }
+  .foot-panel2 ul:nth-child(4) {
+    display: none;
+  }
+  .foot-panel2 {
+    height: 216px;
+  }
+  .panel-countries {
+    height: auto;
   }
 }
 
 @media (min-width: 1601px) {
   .nav-search {
-    flex-grow: 0.75;
+    flex-grow: 0.55;
   }
   .shop-section {
     display: flex;
     flex-wrap: wrap;
     background-color: #222f3d67;
-    height: 100vh;
     /* justify-content: space-evenly; */
   }
   .hero-section {
@@ -47,23 +55,58 @@
   }
 }
 
-@media (min-width:1201px) and (max-width:1600px){
+@media (min-width: 1201px) and (max-width: 1600px) {
   .nav-search {
-    flex-grow: 0.6;
+    flex-grow: 0.4;
   }
   .hero-section {
     height: 55vh;
   }
 }
-@media (min-width: 481px) and (max-width: 1200px) {
+@media (min-width: 481px) and (max-width: 820px) {
   .nav-search {
     flex-grow: 0.25;
+    margin: 0 8px;
   }
-  
+
   .shop-section {
     display: flex;
     flex-wrap: wrap;
-    height: 1320px;
+  }
+  .box {
+    height: 380px;
+    width: 45%;
+    padding: 20px 0 15px;
+    margin-top: 25px;
+  }
+  .hero-section {
+    height: 65vh;
+  }
+  .hero-msg {
+    height: auto;
+  }
+  .foot-panel2 ul:nth-child(3) {
+    display: none;
+  }
+
+  .nav-sign-in {
+    display: none;
+  }
+  /* .panel-countries {
+    height: auto;
+  } */
+}
+@media (min-width: 821px) and (max-width: 1200px) {
+  .nav-search {
+    flex-grow: 0.15;
+    margin: 0 8px;
+  }
+
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 1320px; */
+    height: auto;
   }
   .box {
     height: 380px;
@@ -74,11 +117,28 @@
   .hero-section {
     height: 65vh;
   }
+  .hero-msg {
+    height: auto;
+  }
+  .foot-panel2 ul:nth-child(3) {
+    display: none;
+  }
+  .foot-panel2 {
+    height: 296px;
+  }
+  .panel-countries {
+    height: auto;
+  }
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
-  
+  .hero-msg {
+    display: block;
+    height: auto;
+  }
   .box {
     width: 100%;
+    margin: 8px 16px;
   }
+  
 }
