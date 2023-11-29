@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/pages/style.css" />
+    <link rel="stylesheet" href=".styles/shared/responsive.css">
+    <link rel="stylesheet" href="./styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="./styles/shared/general.css">
+    <link rel="stylesheet" href="./styles/pages/amazon.css">
+    <title>Amazon</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="navbar-logo">
+            <div class="logo border">
+              <a href="index.html" class="header-link">
+                <img src="assests/amazon-logo.png" alt="amazon-logo" class="amazon-logo"/>
+                <!-- <span class="logo-location ">.in</span> -->
+                <img class="amazon-mobile-logo"
+              src="images/amazon-mobile-logo-white.png">
+              </a>
+            </div>
+          </div>
+          <div class="nav-address border">
+            <p class="section-destination">Deliver to</p>
+            <div class="section-icon">
+              <i class="fa-solid fa-location-dot" style="color: #fafbfb"></i>
+              <p class="section-location">India</p>
+            </div>
+          </div>
+          <div class="nav-search">
+            <select name="" id="" class="search-select">
+              <option value="">All</option>
+            </select>
+            <input type="text" placeholder="Search Amazon" class="search-input" />
+            <div class="search-icon">
+              <i class="fa-solid fa-search"></i>
+            </div>
+          </div>
+          <div class="nav-sign-in user border">
+            <p><span>Hello, sign in</span></p>
+            <p class="sign account">Account & Lists</p>
+          </div>
+          <a class="orders-link header-link border" href="./orders.html">
+            <div class="nav-return user ">
+              <p><span>Return</span></p>
+              <p class="return account">& Orders</p>
+            </div>
+          </a>
+          <a class="cart-link header-link" href="./checkout.html">
+            <div class="nav-cart cart-link border">
+              <img src="./assests/cart-icon.png" alt="cart-icon" />
+              <div class="nav-cart-quantity js-cart-quantity">0</div>
+              <p class="cart account">Cart</p>
+            </div>
+          </a>
+        </div>
+        <div class="panel">
+          <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            <span>All</span>
+          </div>
+          <div class="panel-ops">
+            <a href="deals.html" class="link-decoration"><span>Today's Deals</span></a>
+            <a href="#" class="link-decoration"><span>Customer Service</span></a>
+            <a href="#" class="link-decoration"><span>Registry</span></a>
+            <a href="#" class="link-decoration"><span>Gift Cards</span></a>
+            <a href="#" class="link-decoration"><span>Sell</span></a>
+          </div>
+          <div class="panel-deals">
+            <span>Shop deals in Electronics</span>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="products-grid js-products-grid">
+        </div>
+      </div>
+  
+      <script type="module" src="scripts/amazon.js"></script>
+      <script src="data/cart.js"></script>
+    <script src="data/products.js"></script>
+    <script src="scripts/amazon.js"></script>
+</body>
+</html>
